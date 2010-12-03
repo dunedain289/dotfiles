@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/petersen/new_reg/lib/new_reg/parsers'
+let g:netrw_dirhist_2='/home/petersen/new_reg/lib/new_reg/mailers/views/daily_stats'
+let g:netrw_dirhist_3='/home/petersen/new_reg/lib/new_reg/mailers/views'
+let g:netrw_dirhist_4='/home/petersen/new_reg/lib/new_reg/mailers/views/daily_stats'
+let g:netrw_dirhist_5='/home/petersen/new_reg/db/migrate'
+let g:netrw_dirhist_6='/home/petersen/new_reg/lib/new_reg/filters'
+let g:netrw_dirhist_7='/home/petersen/new_reg/lib/new_reg'
+let g:netrw_dirhist_8='/home/petersen/new_reg/lib/new_reg/server'
+let g:netrw_dirhist_9='/home/petersen/new_reg/lib/new_reg'

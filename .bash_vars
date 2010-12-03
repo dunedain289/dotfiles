@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export EDITOR="/usr/bin/vim"
+export LANGUAGE="C"
+export LC_ALL="C"
+export LANG="C"
+export MAIL="~/Maildir/"
+export MAILDIR="~/Maildir/"
