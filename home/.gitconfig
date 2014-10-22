@@ -27,14 +27,17 @@
   lg = log -p
   lol = log --date-order --graph --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   lola = log --date-order --graph --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
-	unpushed = log --branches --not --remotes --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  unpushed = log --branches --not --remotes --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  ahead = log origin/master..HEAD
+  behind = log HEAD..origin/master
+
 [branch]
-	autosetupmerge = true
+  autosetupmerge = true
 
 [user]
   email = petersen@centtech.com
   name = Scott Petersen
 [core]
-	excludesfile = /home/petersen/.gitignore_global
+  excludesfile = /home/petersen/.gitignore_global
 [push]
-	default = simple
+  default = simple
