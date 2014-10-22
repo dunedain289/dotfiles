@@ -1,0 +1,6 @@
+set background=dark
+color solarized
+
+set novisualbell
+
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
